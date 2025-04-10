@@ -50,3 +50,8 @@
 13. `git clone <repo>`
     Copies a remote repository to your
     local machine
+
+### **`.gitignore`**
+
+    Use this file tp specify files that should not be tracked/committed by git.
+    Once a file is tracked by git, adding it to .gitignore won't remove it. You nedd to track it with git rm --cached
